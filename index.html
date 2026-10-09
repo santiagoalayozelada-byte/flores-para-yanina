@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170b2c">
+  <title>Un jardín para ti 💜</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="stars" id="stars"></div>
+    <div class="petals" id="petals"></div>
+  </div>
+
+  <header class="topbar">
+    <a href="#" class="brand">✿ Jardín Violeta</a>
+    <span class="top-note">UN DETALLE DE AMISTAD</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">
+        <span class="live-dot"></span>
+        HECHO CON MUCHO CARIÑO
+      </div>
+
+     <h1>Unas flores<br>para <span>Yanina</span></h1>
+
+      <p class="intro">
+        Porque una amistad bonita también merece
+        flores, pequeños detalles y recuerdos
+        que se quedan en el corazón.
+      </p>
+
+      <div class="garden" aria-label="Jardín de flores moradas">
+        <div class="moon"></div>
+
+        <div class="butterfly butterfly-one">🦋</div>
+        <div class="butterfly butterfly-two">🦋</div>
+
+        <div class="flower flower-left">
+          <div class="stem"></div>
+          <div class="leaf leaf-one"></div>
+          <div class="leaf leaf-two"></div>
+          <div class="bloom">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+            <b></b>
+          </div>
+        </div>
+
+        <div class="flower flower-center">
+          <div class="stem"></div>
+          <div class="leaf leaf-one"></div>
+          <div class="leaf leaf-two"></div>
+          <div class="bloom">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+            <b></b>
+          </div>
+        </div>
+
+        <div class="flower flower-right">
+          <div class="stem"></div>
+          <div class="leaf leaf-one"></div>
+          <div class="leaf leaf-two"></div>
+          <div class="bloom">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+            <b></b>
+          </div>
+        </div>
+
+        <div class="ground"></div>
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>✧</span> UNA PEQUEÑA SORPRESA TE ESPERA
+      </div>
+
+      <button class="primary-btn" id="openLetter">
+        Abrir mi carta <span>♡</span>
+      </button>
+    </section>
+
+    <section class="message-section">
+      <div class="section-label">PARA UNA PERSONA ESPECIAL</div>
+      <h2>La amistad también florece</h2>
+
+      <div class="message-card">
+        <span class="quote-mark">“</span>
+        <p>
+          Hay personas que hacen los días más bonitos
+          sin siquiera darse cuenta. Gracias por las
+          risas, por los momentos compartidos y por
+          ser parte de tantas pequeñas historias.
+        </p>
+        <p>
+          Que nunca te falten razones para sonreír,
+          sueños por cumplir y personas que te
+          recuerden lo mucho que vales.
+        </p>
+        <div class="signature">
+          Con cariño, Jorge 💜
+        </div>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <div class="mini-flowers">✿ ❀ ✿</div>
+      <h2>Un detalle que nace del corazón</h2>
+      <p>
+        No hace falta una ocasión perfecta
+        para recordarle a alguien que su amistad
+        es algo bonito.
+      </p>
+      <button class="secondary-btn" id="moreFlowers">
+        Enviar más flores ✿
+      </button>
+    </section>
+
+    <footer>
+      <div>✦ ✿ ✦</div>
+      Hecho con cariño, pétalos y un poquito de magia.
+      <div class="footer-small">DÍA DE LAS FLORES MORADAS · 💜</div>
+    </footer>
+  </main>
+
+  <div class="letter-overlay" id="letterOverlay"
+       aria-hidden="true">
+    <article class="letter" role="dialog"
+             aria-modal="true" aria-labelledby="letterTitle">
+      <button class="close-btn" id="closeLetter"
+              aria-label="Cerrar carta">×</button>
+
+      <div class="letter-flower">💐</div>
+      <div class="section-label">UNA CARTA PARA TI</div>
+      <h2 id="letterTitle">¡Gracias por tu amistad!</h2>
+
+      <p>
+        Si pudiera regalarte algo más que flores,
+        te regalaría muchos días felices, aventuras
+        inolvidables y motivos para reír incluso
+        en los días más normales.
+      </p>
+
+      <p>
+        Gracias por ser parte de mi vida.
+        Ojalá nuestra amistad siga creciendo,
+        como un jardín lleno de flores moradas. 🌷
+      </p>
+
+      <p class="letter-signature">
+        Con cariño, Jorge >_< 💜
+      </p>
+
+      <button class="primary-btn" id="finishLetter">
+        Guardaré este momento ✨
+      </button>
+    </article>
+  </div>
+
+  <div class="toast" id="toast" role="status"
+       aria-live="polite">
+    ¡Un montón de flores para ti! 💜
+  </div>
+</body>
+</html>
